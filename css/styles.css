@@ -640,6 +640,13 @@ progress {
     height: auto;
 }
 
+.img-modal {
+    height: 30%;
+    width: auto;
+    max-width: 75%;
+    max-height: 55%;
+}
+
 .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
