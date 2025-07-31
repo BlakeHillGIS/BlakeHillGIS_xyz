@@ -5516,18 +5516,25 @@ fieldset:disabled .btn {
 
 /* ############### */
 #portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
     max-width: 25rem;
     margin-left: auto;
     margin-right: auto;
 }
 #portfolio .portfolio-item .portfolio-link {
+    cursor: pointer;
     position: relative;
     display: block;
-    margin: 0 auto;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    cursor: pointer;
     display: flex;
-    position: absolute;
+    position: absolute; /*better to be relative, but need to fix the buttons from going overtop, probably need to split the classes into the other period*/
     width: 100%;
     height: 100%;
     background: rgba(254, 209, 54, 0.9);
@@ -5553,7 +5560,7 @@ fieldset:disabled .btn {
     background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family:
         "Montserrat",
         -apple-system,
