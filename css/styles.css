@@ -5515,14 +5515,6 @@ fieldset:disabled .btn {
 }
 
 /* ############### */
-#portfolio .portfolio-item {
-    cursor: pointer;
-    position: relative;
-    display: block;
-    max-width: 25rem;
-    margin-left: auto;
-    margin-right: auto;
-}
 #portfolio .portfolio-item .portfolio-link {
     cursor: pointer;
     position: relative;
@@ -5530,11 +5522,20 @@ fieldset:disabled .btn {
     max-width: 25rem;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+/*#portfolio .portfolio-link {
     cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+/*#portfolio .portfolio-item .portfolio-link .portfolio-hover {*/
+#portfolio .portfolio-hover {
     display: flex;
-    position: absolute; /*better to be relative, but need to fix the buttons from going overtop, probably need to split the classes into the other period*/
+    position: absolute;
     width: 100%;
     height: 100%;
     background: rgba(254, 209, 54, 0.9);
