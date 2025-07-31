@@ -685,10 +685,12 @@ progress {
 .container-md,
 .container-sm {
     --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
+    --bs-gutter-y: 0rem;
     width: 100%;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-bottom: calc(var(--bs-gutter-y) * 0.5);
+    padding-top: calc(var(--bs-gutter-y) * 0.5);
     margin-right: auto;
     margin-left: auto;
 }
@@ -735,7 +737,7 @@ progress {
 }
 .row {
     --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
+    --bs-gutter-y: 1rem;
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(-1 * var(--bs-gutter-y));
@@ -5532,8 +5534,7 @@ fieldset:disabled .btn {
     margin-left: auto;
     margin-right: auto;
 }*/
-/*#portfolio .portfolio-item .portfolio-link .portfolio-hover {*/
-#portfolio .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
     display: flex;
     position: absolute;
     width: 100%;
