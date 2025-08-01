@@ -6,7 +6,6 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
-// Need to edit this to be a return to top function
 /*!
  * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
  * Copyright 2013-2020 Start Bootstrap
